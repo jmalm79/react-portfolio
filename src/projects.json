@@ -17,7 +17,7 @@
   {
     "id": 3,
     "name": "Offline Budget Tracker",
-    "image": "./images/offline_budget_tracker.jpg",
+    "image": "./images/offline_budget_tracker.jpg?raw=true",
     "url":  "https://safe-gorge-16861.herokuapp.com/",
     "github": "https://github.com/jmalm79/offline-budget-tracker"
   },
