@@ -2,11 +2,35 @@
   background-size: cover;
   background-position: center;
   background-clip: content-box;
-  border: 6px solid white;
   height: 400px;
   width: 400px;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   position: relative;
   margin: 0 auto;
   margin-top: 30px;
+  background-color: #838383;
+  text-align: center;
+  margin-right: 1%;
+  margin-left: 1%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.card > .img-container {
+  overflow: hidden;
+}
+.card > .img-container > img {
+  width: 95%;
+  padding-bottom: 1%;
+}
+
+.card > .content {
+  padding-top: 1rem;
+  font-size: 15px;
+}
+
+div.card {
+  background-color: #838383;
 }

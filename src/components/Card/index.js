@@ -3,17 +3,22 @@ import "./style.css";
 
 function Card(props) {
   return (
+      
     <div className="card">
       <div className="content">
         <ul>
           <li>
-            <strong>Name:</strong> {props.name}
+            <strong>{props.name}</strong>
           </li>
           <li>
-            <strong>URL:</strong> {props.url}
+            <strong> 
+            <a class="link" href={props.url} target = "_blank" rel="noopener noreferrer">Visit Live Site</a>
+            </strong>          
           </li>
           <li>
-            <strong>GitHub:</strong> {props.github}
+            <strong> 
+            <a class="link" href={props.github} target = "_blank" rel="noopener noreferrer">GitHub Repo:</a>
+            </strong>          
           </li>
         </ul>
       </div>
@@ -21,6 +26,7 @@ function Card(props) {
         <img alt={props.name} src={props.image} />
       </div>
     </div>
+    
   );
 }
 

@@ -3,7 +3,7 @@
   {
     "id": 1,
     "name": "Group Project - Trip Planner",
-    "image": "src/images/group_1.jpg",
+    "image": "./images/group_1.jpg",
     "url":  "https://jmalm79.github.io/group_project_1_roadtrippers/",
     "github": "https://github.com/jmalm79/group_project_1_roadtrippers"
   },

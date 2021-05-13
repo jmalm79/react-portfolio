@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
-import selfie from "../images/me.png"
+import selfie from "../assets/me.png"
 
 
 console.log(selfie);

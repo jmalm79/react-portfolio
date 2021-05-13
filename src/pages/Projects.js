@@ -14,7 +14,6 @@ class App extends Component {
   render() {
     return (
       <Wrapper>
-        <h2>Projects List</h2>
         {this.state.projects.map(projects => (
           <Card
             id={projects.id}
