@@ -3,42 +3,42 @@
   {
     "id": 1,
     "name": "Group Project - Trip Planner",
-    "image": "../images/group_1.jpg",
+    "image": "/images/group_1.jpg",
     "url":  "https://jmalm79.github.io/group_project_1_roadtrippers/",
     "github": "https://github.com/jmalm79/group_project_1_roadtrippers"
   },
   {
     "id": 2,
     "name": "Group Project - DayCare CRM",
-    "image": "../images/group_2.jpg",
+    "image": "/images/group_2.jpg",
     "url":  "https://quiet-bayou-23568.herokuapp.com/",
     "github": "https://github.com/jmalm79/daycare_cms"
   },
   {
     "id": 3,
     "name": "Offline Budget Tracker",
-    "image": "../images/offline_budget_tracker.jpg?raw=true",
+    "image": "/images/offline_budget_tracker.jpg",
     "url":  "https://safe-gorge-16861.herokuapp.com/",
     "github": "https://github.com/jmalm79/offline-budget-tracker"
   },
   {
     "id": 4,
     "name": "React Employee Directory",
-    "image": "../images/react_directory.jpg",
+    "image": "/images/react_directory.jpg",
     "url":  "https://lit-stream-02156.herokuapp.com/",
     "github": "https://github.com/jmalm79/employee_directory"
   },
   {
     "id": 5,
     "name": "Fitness Tracker",
-    "image": "../images/fitness_tracker.jpg",
+    "image": "/images/fitness_tracker.jpg",
     "url":  "https://polar-dusk-36310.herokuapp.com/",
     "github": "https://github.com/jmalm79/fitness_tracker"
   },
   {
     "id": 6,
     "name": "My Tech Blog",
-    "image": "../images/tech_blog.jpg",
+    "image": "/images/tech_blog.jpg",
     "url":  "https://quiet-basin-55755.herokuapp.com/",
     "github": "https://github.com/jmalm79/my_tech_blog"
   }
