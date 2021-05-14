@@ -12,7 +12,7 @@ function Card(props) {
           </li>
           <li>
             <strong> 
-            <a class="link" href={props.url} target = "_blank" rel="noopener noreferrer">Visit Live Site</a>
+            <a class="link" href= {props.url} target = "_blank" rel="noopener noreferrer">Visit Live Site</a>
             </strong>          
           </li>
           <li>
@@ -23,7 +23,7 @@ function Card(props) {
         </ul>
       </div>
       <div className="img-container">
-        <img alt={props.name} src={props.image} />
+        <img alt={props.name} src={process.env.PUBLIC_URL + props.image} />
       </div>
     </div>
     
