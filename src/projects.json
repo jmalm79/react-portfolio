@@ -16,10 +16,10 @@
   },
   {
     "id": 3,
-    "name": "Offline Budget Tracker",
-    "image": "/images/offline_budget_tracker.jpg",
-    "url":  "https://safe-gorge-16861.herokuapp.com/",
-    "github": "https://github.com/jmalm79/offline-budget-tracker"
+    "name": "Group Project - HACKaMOLE",
+    "image": "/images/group_3.jpg",
+    "url":  "https://enigmatic-sierra-05882.herokuapp.com/",
+    "github": "https://github.com/jmalm79/hack-a-mole"
   },
   {
     "id": 4,
