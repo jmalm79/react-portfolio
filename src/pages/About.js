@@ -5,9 +5,6 @@ import Col from "../components/Col";
 import selfie from "../assets/me.png"
 import farmbus from "../assets/farmbus.jpg"
 
-
-console.log(selfie);
-
 function About() {
   return (
     <div>
@@ -17,8 +14,8 @@ function About() {
           </Col>
         </Row>
         <Row>
-        <Col size="sm-12 md-6 lg-4 xl-3">
-        <img src={selfie} width="300" height="300" alt=" selfie of me" />
+        <Col size="sm-12 md-6 lg-4 xl-3" align-items="center">
+        <img src={selfie} width="300" height="300" alt=" selfie of me" className="selfie" />
         </Col>
           <Col size="sm-12 md-6 lg-7 xl-8">
             <h3>About Me</h3>
@@ -27,9 +24,9 @@ function About() {
                
             <h3>Hobbies and Other Interests</h3> 
             <p>
-              In my free time, I like to be outdoors with my family, either hiking in a State Parks on the North Shore or out cruising to a car show in our vintage Volkswagen Bus. 
+              In my free time, I like to be outdoors with my family, either hiking in State Parks on the North Shore or out cruising to a car show in our vintage Volkswagen Bus. 
             </p>
-            <img src={farmbus} height="20%" alt="my VW Bus" />
+            <img src={farmbus} height="45%" alt="my VW Bus" />
           </Col>
         </Row>
       </Container>
